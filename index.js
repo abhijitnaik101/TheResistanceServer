@@ -9,7 +9,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://the-resistance.vercel.app/game",
+    origin: "https://the-resistance.vercel.app",
     methods: ["GET", "POST"]
   }
 })
