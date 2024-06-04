@@ -12,5 +12,10 @@
   "main": "index.js",
   "repository": "https://github.com/abhijitnaik101/TheResistanceServer.git",
   "author": "Abhijit Naik <abhijitnaik101@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "start": "node"
+  }
 }
