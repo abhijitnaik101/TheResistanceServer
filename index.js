@@ -33,7 +33,9 @@ for (let i = 1; i <= 5; i++) {
   missionTrack.push(missionInfo[i].strength);
 }
 
-
+app.get("/", (req, res) => {
+  res.send("Server is up and running");
+})
 
 io.use((socket, next) => {
   const username = socket.handshake.auth.username;

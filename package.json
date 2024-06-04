@@ -3,6 +3,14 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "nodemon": "^3.1.3",
-    "socket.io": "^4.7.5"
-  }
+    "socket.io": "^4.7.5",
+    "vercel": "^34.2.4"
+  },
+  "name": "theresistance",
+  "version": "1.0.0",
+  "description": "An online web game of the resistance",
+  "main": "index.js",
+  "repository": "https://github.com/abhijitnaik101/TheResistanceServer.git",
+  "author": "Abhijit Naik <abhijitnaik101@gmail.com>",
+  "license": "MIT"
 }
